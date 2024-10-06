@@ -6,7 +6,7 @@ function VideoComponent({ src }) {
       <video
         src={src}
         autoPlay
-        className="w-full h-full object-cover pointer-events-none"
+        className="w-full h-full object-contain pointer-events-none"
       />
     </div>
   );

@@ -4,7 +4,7 @@ import Particles from "@/components/ui/Particle";
 export default async function Home() {
   return (
     <main className="relative flex max-w-screen-2xl mx-auto min-h-screen flex-col items-center justify-between p-3 lg:p-6">
-      <div className="fixed w-full h-full justify-center items-center  opacity-20 overflow-hidden ">
+      <div className="fixed w-full h-full justify-center items-center overflow-hidden ">
         <Particles
           className="absolute inset-0"
           quantity={150}
